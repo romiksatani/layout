@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Forms</title>
+</head>
+<body>
+    <h2>Novell Service Login</h2>
+    <form mathod="GET">
+        <table border="1">
+            <tr>
+                <td><label for="Name"><b>Username:</b></label></td>
+                <td><input type="text" name="Username" placeholder="Write Your Name." value="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="Password"><b>Password:</b></label></td>
+                <td><input type="text" name="Password" placeholder="Enter Your Password." value="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="City"><b>City of Employment:</b></label></td>
+                <td><select name="City"><option selected disabled>___Select City___</option>
+                    <option>Surat</option>
+                    <option>Ahmadabad</option>
+                    <option>Jamnagar</option>
+                    <option>Mumbai</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="Web Server"><b>Web Server:</b></label></td>
+                <td><select name="Web Server">
+                    <option value="Web Server">___Choose a Server___</option>
+                    <option>Apache HTTP Server(apache)</option>
+                    <option>Microsoft Internet Information Services(IIS)</option>
+                    <option>Node.js</option>
+                    <option>Litespeed</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Please Specify Your Role:</b></label></td>
+                <td><input type="radio" value="admin" name="Role">Admin
+                    <input type="radio" value="Engineer" name="Role">Engineer
+                    <input type="radio" value="Manager" name="Role">Manager
+                    <input type="radio" value="Guest" name="Role">Guest</td>
+            </tr>
+            <tr>
+                <td><label for=""><b>Single Sign-on To The Following:</b></label></td>
+                <td><input type="checkbox" name="Sign" value="Mail">Mail<br>
+                    <input type="checkbox" name="Sign" value="Payroll">Payroll<br>
+                    <input type="checkbox">Self-Service</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="Log in" value="Log in ">&nbsp;
+                <input type="reset" name="reset" value="reset"></td>
+            </tr>
+        </table>
+        </form>
+    </table>
+    <br>
+    
+    
+    <form>
+<fieldset>
+            <legend>Personal Details:</legend>
+            <label for="Salutation">Salutation:</label>
+            <select name="Salutation">
+            <option value="Salutation">--None--</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+        <br><br>
+        <label for="first Name">Fisrst Name:</label>
+        <input type="text" name="First Name" value="">
+        <br><br>
+        <label name="Last Name">Last Name:</label> 
+        <input type="text" name="Last Name" value="">
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text">
+        <br><br>
+        <label for="date">Date of Birth:</label>
+        <input type="date">
+        <br><br>
+        <label for="address">Address:</label>
+        <textarea name="address"></textarea>
+        <br><br>
+        <input type="submit" name="Submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+
+
+
+
+    <form method="GET">
+        <fieldset>
+           <table border="0"> <legend>Application Form:</legend>
+           <tr>
+            <td> <label for="Full Name">Full Name:</label></td>
+                <td><input type="text" name="Full Name" value=""></td>
+           </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                    <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td><input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td><label for="Nationality">Nationality:</label></td>
+                <td><select name="Nationality">
+                    <option value="Naltionality">--Select--</option>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>Dubai</option>
+                    <option>Russia</option>
+                    <option>Canada</option>
+                    <option>South Korea</option>
+                    <option>China</option>
+                    <option>Germany</option>
+                    </select></td>
+            </tr>
+            <tr><td><label for="Skills"><b>Skills:</b></label></td>
+            <td><input type="checkbox" name="Skills" value="Asp.Net">Asp.Nettd
+                <input type="checkbox" name="Skills" value="jQuery">jQuery <br>
+                <input type="checkbox" name="Skills" value="MVC">MVC
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Skills" value="sql Server">sql Server</td></tr>
+            <tr>
+                <td><label for="Post">Post Applying for:</label></td>
+                <td><input type="checkbox" name="Trainee">Trainee
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Skills" value="Software Engineer">Software Engineer<br>
+                    <input type="checkbox" name="Skills" value="Team Leader">Team Leader
+                    <input type="checkbox" name="Skills" value="Project Manager">Project Manager</td></tr>
+            </tr>
+            <tr>
+                <td><label for="file">Upload Resume:</label></td>
+                <td><input type="file"></td>
+            </tr>
+    
+            <tr>
+                <td><label for="Resume">Paste Your Resume:</label></td>
+                <td><textarea name="Resume"></textarea></td>
+             
+            
+            <tr><td colspan="2"><input type="checkbox" name="email notification">Notify me the status via Email</td></tr>
+            <tr><td colspan="2"><input type="radio" name="Agree with all terms and Conditions">I agree to Terms & Conditions</td></tr>
+            <tr><td colspan="2"><input type="submit" name="Submit" value="Submit">&nbsp;<input type="reset" name="reset" value="reset"></td></tr>
+            
+        </table>
+        </fieldset>
+    </form>
+
+
+
+
+
+    <br><br><br><br>
+    <h2>Service Login</h2>
+    <table><form><tr>
+        <td><label for="Name"><b>Username:</b></label></td>
+           <td> <input type="text" name="Username" value=""></td>
+    </tr>
+        <tr>
+            <td><label for="Password"><b>Password:</b></label></td>
+        <td><input type="text" name="Password" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="Name">City of Employment:</label></td>
+            <td><input type="text" name="Employment" value=""></td>
+        </tr><br>
+        <tr>
+            <td><label for="Web Server"><b>Web Server:</b></label></td>
+                <td><select name="Web Server">
+                    <option value="Web Server">___Choose a Server___</option>
+                    <option>Apache HTTP Server(apache)</option>
+                    <option>Microsoft Internet Information Services(IIS)</option>
+                    <option>Node.js</option>
+                    <option>Litespeed</option></select></td>
+        </tr>
+           <br><br><br>         
+        <tr>
+            <td><label for="Role"><b>Please Specify Your Role:</b></label></td>
+            <td><input type="radio" value="admin" name="Role">Admin
+            <input type="radio" value="Engineer" name="Role">Engineer
+            <input type="radio" value="Manager" name="Role">Manager
+            <input type="radio" value="Guest" name="Role">Guest</td> 
+        </tr>
+       <tr> 
+        <td><label for=""><b>Single Sign-on To The Following:</b></label></td>
+        <td><input type="checkbox" name="Sign" value="Mail">Mail
+            <input type="checkbox" name="Sign" value="Payroll">Payroll
+            <input type="checkbox">Self-Service</td>
+       </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="submit"></td>
+            <td><input type="reset" value="reset"></td>
+        </tr>
+</form></table>
+
+
+
+
+<br><br><br><br><br>
+
+<table border="1">
+    <form mathod="GET">
+<tr>
+    <td><label for="Name"><b>Name:</b></label></td>
+    <td><input type="text" name="Name" value="Name" placeholder="Write your Name"></td>
+</tr>
+<tr>
+    <td><label for="Passsword"><b>Password:</b></label></td>
+    <td><input type="text" placeholder="Password" name="password" value="password"></td>
+</tr>
+<tr>
+    <td><label for="address">Address:</label></td>
+    <td><textarea name="address" value="address" placeholder="Enter Your Address"></textarea></td>
+</tr>
+<tr>
+    <td><label for="city">City:</label></td>
+    <td>
+        <select>
+            <option value="city" name="city">__Select City__</option>
+             <option name="surat">Surat</option>
+             <option name="Ahmadabed">Ahmadabed</option>
+             <option name="Mumbai">Mumbai</option>
+             <option name="Pune">Pune</option>
+             <option name="Delhi">Delhi</option>
+        </select>   
+    </td>
+</tr>
+<tr>
+    <td><label for="gender">Gender:</label></td>
+    <td><input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+    </td>
+</tr>
+<tr>
+    <td><label for="hobby">Hobbey</label></td>
+    <td><input type="checkbox">Singing
+    <input type="checkbox">Dancing
+    <input type="checkbox">Reading
+    <input type="checkbox">Travelling</td>
+</tr>
+<tr>
+    <td><label for="color">Color:</label></td>
+    <td><input type="color"></td>
+</tr>
+<tr>
+    <td><label for="Date">Date:</label></td>
+    <td><input type="Date"></td>
+</tr>
+<tr>
+    <td><label for="time">Time:</label></td>
+    <td><input type="time"></td>
+</tr>
+<tr>
+    <td><label for="Date&Time">Date&Time:</label></td>
+    <td><input type="Date">
+    <input type="time"></td>
+</tr>
+<tr>
+    <td><label for="Week">Week:</label></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td><label for="Number">Number:</label></td>
+    <td><input type="number"></td>
+</tr>
+<tr>
+    <td><label for="Range">Range:</label></td>
+    <td><input type="range"></td>
+</tr>
+<tr>
+    <td><label for="file">File:</label></td>
+    <td><input type="file"></td>
+</tr>
+<tr>
+    <td><label for="email">E-mail:</label></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td><label for="URL">URL:</label></td>
+    <td><input type="text">
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset">
+        <input type="Go"></td>
+</tr>
+    </form></table>
+</body>
+</html>
