@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+/* start image block */
+.container{
+box-sizing: content-box;
+max-width: 100%;
+display: block; 
+}
+.container .background-image{
+    background-image: url(../assets/dumbell.jpeg);
+    height: 750px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+} 
+.blockposition_inner{
+    padding: 15px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.container .background-image h4 span{
+   font-size: 70px;
+   font-weight: 700 !important;
+   font-family: "Poppins", sans-serif;
+   color: #e92d74;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 100%;
+}
+.container .background-image h4{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700 !important;
+    font-family: "Poppins", sans-serif;
+}
+/* end image block */
+/* start services block 1*/
+.container1{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    width: 1222px;
+    margin: 0;
+    z-index: 1;
+}
+.mainbox{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -133px;
+    background-color: white;
+}
+.mainbox .container1 .servicebox {
+    display: flex;
+   float: right;
+}
+
+.mainbox .container1 .innerbox_truck .inner-truckicon{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 100%;
+    box-sizing: border-box;
+   
+}
+.mainbox .container1 .servicebox .innerbox_truck h4{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   
+}
+.mainbox .container1 .servicebox .innerbox_truck p{
+    text-align: center;
+    color: #878787;
+}
+.mainbox .container1 .servicebo .innerbox_truck{
+    position: relative;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.main_firstblock{
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border-right-width: 1px !important;
+  padding-top: 0px !important;
+  border-right-color: #e6e6e6 !important;
+  border-right-style: solid !important;
+}
+/* end services block */
+.container3{
+    display: flex;
+    box-sizing: border-box;
+    width: 1222px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-bottom: 30px;
+}
+.main_fitnessimages .container3 .firstimg{
+ background-image: url(../assets/fitness.jpg);
+ width: 33.33%;
+ width: 360px;
+ height: 245px;
+ position: relative;
+ padding-left: 15PX;
+ padding-right: 15px;
+ margin-left: 15px;
+ margin-right: 15px;
+ background-color: rgba(0,0,0,.3);
+}
+.main_fitnessimages .container3 .firstimg .cardio{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+margin: 0 auto;
+padding: 0;
+border: 0;
+font: inherit;
+box-sizing: border-box;
+color: #ffffff;
+overflow-y: hidden;
+}
+
+.main_fitnessimages .container3 .firstimg1{
+    background-image: url(../assets/fitness1.jpg);
+    width: 33.33%;
+    width: 360px;
+    height: 245px;
+    position: relative;
+    padding-left: 15PX;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(0,0,0,.3);
+}
+.main_fitnessimages .container3 .firstimg1 .fitness{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    color: #ffffff;
+    overflow-y: hidden;
+}
+.main_fitnessimages .container3 .firstimg2{
+    background-image: url(../assets/WORKOUT.jpg);
+ width: 33.33%;
+ width: 360px;
+ height: 245px;
+ position: relative;
+ padding-left: 15PX;
+ padding-right: 15px;
+ margin-left: 15px;
+ margin-right: 15px;
+ background-color: rgba(0,0,0,.3);
+}
+.main_fitnessimages .container3 .firstimg2 .workout{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+    color: #ffffff;
+    overflow-y: hidden;
+}
+/* start powerlifting image block */
+.mainimage{
+    display: block;
+}
+.container4{
+box-sizing: border-box;
+display: flex;
+width: 1222px;
+max-width: 100%;
+margin: 0 auto;
+}
+.mainimage .container4 .firstimg4{
+    max-width: 50%;
+    width: 575px;
+padding: 15px 15px;
+margin: 0 15px;
+}
+.mainimage .container4 .firstimg4 .powerlifting .positioncenter{
+    display: flex;
+    position: relative;
+}
+.mainimage .container4 .firstimg4 .powerlifting .positioncenter h4{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    }
+.mainimage .container4 .firstimg5{
+    max-width: 50%;
+    width: 575px;
+padding: 15px 15px;
+margin: 0 15px;
+}
+/* end power lifting image block */
+
+
+
+
